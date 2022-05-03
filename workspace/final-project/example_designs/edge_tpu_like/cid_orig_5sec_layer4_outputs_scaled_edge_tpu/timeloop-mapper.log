@@ -1,0 +1,17 @@
+[  4] Utilization = 1.00 | pJ/Compute =   18.229 | L4[WIO] M32 P17 C256 - L3[W] P3 - L2[IO] P5 M4Y C4X - L1[IO] R3 - L0[W] R6 M16Y 
+[  4] Utilization = 1.00 | pJ/Compute =   10.013 | L4[WIO] C256 M32 P17 - L3[W] P3 - L2[IO] P5 M4Y C4X - L1[IO] R3 - L0[W] R6 M16Y 
+[  2] Utilization = 1.00 | pJ/Compute =    9.887 | L4[WIO] C256 M32 P17 - L3[W] Q1 - L2[IO] P5 M4Y C4X - L1[IO] P3 R9 - L0[W] R2 M16Y 
+[  4] Utilization = 1.00 | pJ/Compute =    9.884 | L4[WIO] M32 C256 - L3[W] P17 - L2[IO] Q1 M4Y C4X - L1[IO] P15 R3 - L0[W] R6 M16Y 
+[  4] Utilization = 1.00 | pJ/Compute =    7.583 | L4[WIO] M32 P3 C256 - L3[W] P85 - L2[IO] Q1 M4Y C4X - L1[IO] Q1 - L0[W] R18 M16Y 
+[  4] Utilization = 1.00 | pJ/Compute =    6.529 | L4[WIO] M32 C256 P3 - L3[W] P85 - L2[IO] Q1 M4Y C4X - L1[IO] Q1 - L0[W] R18 M16Y 
+[  6] Utilization = 1.00 | pJ/Compute =    9.707 | L4[WIO] M32 P5 C256 - L3[W] P17 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] P3 R3 M16Y 
+[  6] Utilization = 1.00 | pJ/Compute =    7.653 | L4[WIO] M32 C256 P5 - L3[W] P17 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] P3 R3 M16Y 
+Interrupt caught. Mapper threads will terminate after completing any ongoing evaluations.
+[  5] STATEMENT: global termination flag activated, terminating search.
+[  7] STATEMENT: global termination flag activated, terminating search.
+[  3] STATEMENT: global termination flag activated, terminating search.
+[  0] STATEMENT: global termination flag activated, terminating search.
+[  1] STATEMENT: global termination flag activated, terminating search.
+[  2] STATEMENT: global termination flag activated, terminating search.
+[  4] STATEMENT: global termination flag activated, terminating search.
+[  6] STATEMENT: global termination flag activated, terminating search.

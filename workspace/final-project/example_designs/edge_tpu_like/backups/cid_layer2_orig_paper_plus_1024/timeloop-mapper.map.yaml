@@ -1,0 +1,67 @@
+mapping:
+  - target: core_memory
+    type: datatype
+    keep:
+      - Weights
+    bypass:
+      - Inputs
+      - Outputs
+  - target: pe_memory
+    type: datatype
+    keep:
+      - Inputs
+      - Outputs
+    bypass:
+      - Weights
+  - target: activation_memory
+    type: datatype
+    keep:
+      - Inputs
+      - Outputs
+    bypass:
+      - Weights
+  - target: parameter_memory
+    type: datatype
+    keep:
+      - Weights
+    bypass:
+      - Inputs
+      - Outputs
+  - target: DRAM
+    type: datatype
+    keep:
+      - Weights
+      - Inputs
+      - Outputs
+    bypass:
+      []
+  - target: core_memory
+    type: spatial
+    factors: C1 M64 R1 S1 N1 P1 Q1
+    permutation: MCRSNPQ
+    split: 0
+  - target: core_memory
+    type: temporal
+    factors: C1 M1 R18 S1 N1 P1 Q1
+    permutation: RCMSNPQ
+  - target: pe_memory
+    type: temporal
+    factors: C1 M1 R1 S1 N1 P23 Q1
+    permutation: PCMRSNQ
+  - target: activation_memory
+    type: spatial
+    factors: C2 M2 R1 S1 N1 P1 Q1
+    permutation: CMRSNPQ
+    split: 1
+  - target: activation_memory
+    type: temporal
+    factors: C1 M1 R1 S1 N1 P1 Q1
+    permutation: CMRSNPQ
+  - target: parameter_memory
+    type: temporal
+    factors: C1 M1 R1 S1 N1 P1 Q1
+    permutation: CMRSNPQ
+  - target: DRAM
+    type: temporal
+    factors: C128 M4 R1 S1 N1 P89 Q1
+    permutation: CPMRSNQ

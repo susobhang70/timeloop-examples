@@ -1,0 +1,76 @@
+architecture:
+# All values and design hierarchy were verfied as reasonable by TA based on https://arxiv.org/pdf/2102.10423.pdf
+  version: 0.3
+  subtree:
+    - name: System
+      attributes:
+        datawidth: 8
+        word-bits: 8
+        technology: 45nm
+      local:
+      # Kept DRAM consistent with Simba Arch for comparison
+        - name: DRAM
+          class: DRAM
+          attributes:
+            type: LPDDR4
+            width: 64
+            block-size: 4
+            word-bits: 16
+      subtree:
+        - name: edge_tpu_like_os
+          attributes:
+            technology: 45nm
+          local:
+            - name: parameter_memory
+              class: smartbuffer_SRAM
+              attributes:
+                # 16KiB / 4 bytes (i.e. 32 bits) = 2KiB  = 2048 
+                memory_depth: 2048
+                memory_width: 32
+                n_banks: 32
+                block-size: 4
+                word-bits: 8
+          subtree:
+            - name: activation_storage  # should be at same level as param memory but parallel buffers not allowed
+              local:
+                - name: activation_memory
+                  class: smartbuffer_SRAM
+                  attributes:
+                    # 1KiB / 4 bytes (i.e. 32 bits) = 256
+                    memory_depth: 256
+                    memory_width: 32
+                    n_banks: 32
+                    block-size: 4
+                    word-bits: 8
+              subtree:
+                - name: PE[0..15]
+                  local:
+                    - name: pe_memory
+                      class: smartbuffer_SRAM
+                      attributes:
+                        # 384KB / 4 bytes (i.e. 32 bits) = 96K
+                        memory_depth: 96000
+                        memory_width: 32
+                        block-size: 4
+                        word-bits: 8
+                        meshX: 4
+                  subtree:
+                    - name: core
+                      local:
+                        - name: core_memory
+                          class: smartbuffer_SRAM
+                          attributes:
+                            # 32KiB / 4 bytes (i.e. 32 bits) = 8KiB  = 8192
+                            memory_depth: 8192
+                            memory_width: 32
+                            block-size: 4
+                            word-bits: 8
+                            meshX: 4
+                      subtree:
+                        - name: compute_lanes[0..63]
+                          local:
+                            - name: mac
+                              class: intmac
+                              attributes:
+                                datawidth: 8
+                                meshX: 4

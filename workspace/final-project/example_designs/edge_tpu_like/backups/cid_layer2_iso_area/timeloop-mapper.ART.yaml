@@ -1,0 +1,15 @@
+ART:
+  version: 0.3
+  tables:
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.compute_lanes[0..15].mac
+    area: 332.25
+  - name: System.DRAM
+    area: 0
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.core_memory
+    area: 4850.36
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].pe_memory
+    area: 4850.36
+  - name: System.edge_tpu_like_os.activation_storage.activation_memory
+    area: 62171.8
+  - name: System.edge_tpu_like_os.parameter_memory
+    area: 62171.8

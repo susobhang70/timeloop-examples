@@ -1,0 +1,37 @@
+ART_summary:
+  version: 0.3
+  table_summary:
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.compute_lanes[0..63].mac
+    area: 332.25
+    primitive_estimations: Aladdin_table
+  - name: System.DRAM
+    area: 0
+    primitive_estimations: Cacti
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.core_memory
+    area: 220381.0
+    primitive_estimations:
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].pe_memory
+    area: 2458849.0
+    primitive_estimations:
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: System.edge_tpu_like_os.activation_storage.activation_memory
+    area: 4850.36
+    primitive_estimations:
+    - name: storage
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: System.edge_tpu_like_os.parameter_memory
+    area: 95922.9
+    primitive_estimations:
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0..1]
+      estimator: Aladdin_table

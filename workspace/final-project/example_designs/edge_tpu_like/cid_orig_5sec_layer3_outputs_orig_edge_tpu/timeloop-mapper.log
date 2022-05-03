@@ -1,0 +1,96 @@
+[  7] Utilization = 0.02 | pJ/Compute =   64.374 | L4[WIO] C16 M128 - L3[W] C4 P7 M2 - L2[IO] P73 M4Y C4X - L1[IO] C2 R6 - L0[W] R3 
+[  6] Utilization = 0.02 | pJ/Compute =   65.118 | L4[WIO] C16 M128 - L3[W] M2 C4 P7 - L2[IO] P73 M4Y C4X - L1[IO] R6 - L0[W] C2 R3 
+[  7] Utilization = 0.02 | pJ/Compute =   64.138 | L4[WIO] M128 C16 - L3[W] M2 P7 C4 - L2[IO] P73 M4Y C4X - L1[IO] C2 R6 - L0[W] R3 
+[  6] Utilization = 0.02 | pJ/Compute =   64.138 | L4[WIO] M128 C16 - L3[W] P7 M2 C4 - L2[IO] P73 M4Y C4X - L1[IO] R6 - L0[W] R3 C2 
+[  0] Utilization = 0.03 | pJ/Compute =   58.444 | L4[WIO] C128 M16 P511 - L3[W] M4 - L2[IO] Q1 M4Y C4X - L1[IO] M2 R9 - L0[W] R2 M2Y 
+[  1] Utilization = 0.03 | pJ/Compute =   57.377 | L4[WIO] M32 C64 - L3[W] C2 P511 - L2[IO] M2 M4Y C4X - L1[IO] M2 - L0[W] R18 M2Y 
+[  0] Utilization = 0.03 | pJ/Compute =   55.719 | L4[WIO] C64 M32 - L3[W] P511 - L2[IO] C2 M2 M4Y C4X - L1[IO] M2 - L0[W] R18 M2Y 
+[  5] Utilization = 0.02 | pJ/Compute =   63.011 | L4[WIO] C64 M64 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C2 M4 P7 R3 - L0[W] R6 
+[  7] Utilization = 0.03 | pJ/Compute =   53.770 | L4[WIO] C64 M32 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] M4 C2 P7 R3 - L0[W] R6 M2Y 
+[  6] Utilization = 0.03 | pJ/Compute =   53.770 | L4[WIO] C64 M32 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] M4 P7 R3 - L0[W] R6 C2 M2Y 
+[  4] Utilization = 0.02 | pJ/Compute =   63.011 | L4[WIO] C64 M64 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] M4 P7 R3 - L0[W] C2 R6 
+[  5] Utilization = 0.02 | pJ/Compute =   60.305 | L4[WIO] M128 C32 P73 - L3[W] C4 - L2[IO] Q1 M4Y C4X - L1[IO] M2 R3 - L0[W] P7 R6 
+[  2] Utilization = 0.02 | pJ/Compute =   77.711 | L4[WIO] P73 M128 C32 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] M2 R3 - L0[W] R6 C2 P7 
+[  3] Utilization = 0.02 | pJ/Compute =   77.711 | L4[WIO] P73 M128 C32 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] M2 C2 R3 - L0[W] P7 R6 
+[  2] Utilization = 0.02 | pJ/Compute =   60.305 | L4[WIO] C32 M128 P73 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] M2 R3 - L0[W] C2 R6 P7 
+[  3] Utilization = 0.02 | pJ/Compute =   60.305 | L4[WIO] M128 C32 P73 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] M2 C2 R3 - L0[W] R6 P7 
+[  4] Utilization = 0.02 | pJ/Compute =   60.305 | L4[WIO] M128 C32 P73 - L3[W] C2 - L2[IO] C2 M4Y C4X - L1[IO] M2 R3 - L0[W] P7 R6 
+[  4] Utilization = 0.02 | pJ/Compute =   58.476 | L4[WIO] C32 M64 - L3[W] M4 P7 C2 - L2[IO] P73 M4Y C4X - L1[IO] Q1 - L0[W] R18 C2 
+[  4] Utilization = 0.02 | pJ/Compute =   57.716 | L4[WIO] C32 M64 - L3[W] P7 C2 M4 - L2[IO] P73 M4Y C4X - L1[IO] Q1 - L0[W] R18 C2 
+[  2] Utilization = 0.02 | pJ/Compute =   59.620 | L4[WIO] C64 M128 P73 - L3[W] Q1 - L2[IO] C2 M2 M4Y C4X - L1[IO] R9 - L0[W] R2 P7 
+[  5] Utilization = 0.02 | pJ/Compute =   57.628 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] M2 M4Y C4X - L1[IO] C2 R9 - L0[W] R2 P7 C4 
+[  4] Utilization = 0.02 | pJ/Compute =   57.628 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] M2 M4Y C4X - L1[IO] R9 - L0[W] R2 P7 C8 
+[  3] Utilization = 0.02 | pJ/Compute =   59.823 | L4[WIO] M256 C16 - L3[W] P73 - L2[IO] C2 M4Y C4X - L1[IO] C2 R3 - L0[W] P7 C2 R6 
+[  5] Utilization = 0.03 | pJ/Compute =   54.117 | L4[WIO] C64 M64 - L3[W] P73 - L2[IO] M2 M4Y C4X - L1[IO] C2 P7 R18 - L0[W] Q1 M2Y 
+[  4] Utilization = 0.03 | pJ/Compute =   54.541 | L4[WIO] C64 M64 - L3[W] P73 - L2[IO] M2 M4Y C4X - L1[IO] P7 R18 - L0[W] C2 M2Y 
+[  1] Utilization = 0.06 | pJ/Compute =   51.922 | L4[WIO] M32 C64 P7 - L3[W] M2 C2 P73 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] R3 M4Y 
+[  2] Utilization = 0.02 | pJ/Compute =   59.187 | L4[WIO] M64 C128 P7 - L3[W] M2 - L2[IO] Q1 M4Y C4X - L1[IO] M2 - L0[W] P73 R18 
+[  0] Utilization = 0.06 | pJ/Compute =   52.877 | L4[WIO] M32 C64 P7 - L3[W] M2 P73 - L2[IO] C2 M4Y C4X - L1[IO] R6 - L0[W] R3 M4Y 
+[  4] Utilization = 0.03 | pJ/Compute =   51.692 | L4[WIO] C128 M16 - L3[W] M2 P73 - L2[IO] M2 M4Y C4X - L1[IO] P7 R6 - L0[W] R3 M2 M2Y 
+[  7] Utilization = 0.03 | pJ/Compute =   53.568 | L4[WIO] C64 M32 P73 - L3[W] Q1 - L2[IO] M4 M4Y C4X - L1[IO] C2 P7 R18 - L0[W] Q1 M2Y 
+[  2] Utilization = 0.03 | pJ/Compute =   64.154 | L4[WIO] C16 P73 M128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C4 R2 - L0[W] C2 P7 R9 M2Y 
+[  2] Utilization = 0.03 | pJ/Compute =   47.825 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C4 R2 - L0[W] P7 C2 R9 M2Y 
+[  2] Utilization = 0.03 | pJ/Compute =   46.693 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C4 R2 - L0[W] C2 R9 P7 M2Y 
+[  3] Utilization = 0.03 | pJ/Compute =   63.871 | L4[WIO] C16 P73 M128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C8 R2 - L0[W] R9 P7 M2Y 
+[  3] Utilization = 0.03 | pJ/Compute =   46.976 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C8 R2 - L0[W] P7 R9 M2Y 
+[  5] Utilization = 0.03 | pJ/Compute =   48.714 | L4[WIO] M128 C16 P73 - L3[W] Q1 - L2[IO] C2 M4Y C4X - L1[IO] C2 R2 - L0[W] R9 P7 C2 M2Y 
+[  5] Utilization = 0.03 | pJ/Compute =   47.582 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] C2 M4Y C4X - L1[IO] C2 R2 - L0[W] C2 R9 P7 M2Y 
+[  3] Utilization = 0.03 | pJ/Compute =   46.693 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C8 R2 - L0[W] R9 P7 M2Y 
+[  7] Utilization = 0.03 | pJ/Compute =   48.714 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] C4 M4Y C4X - L1[IO] R2 - L0[W] P7 C2 R9 M2Y 
+[  7] Utilization = 0.03 | pJ/Compute =   47.582 | L4[WIO] M128 C16 P73 - L3[W] Q1 - L2[IO] C4 M4Y C4X - L1[IO] R2 - L0[W] C2 R9 P7 M2Y 
+[  4] Utilization = 0.03 | pJ/Compute =   48.714 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] C2 M4Y C4X - L1[IO] R2 - L0[W] P7 C4 R9 M2Y 
+[  4] Utilization = 0.03 | pJ/Compute =   47.582 | L4[WIO] M128 C16 P73 - L3[W] Q1 - L2[IO] C2 M4Y C4X - L1[IO] R2 - L0[W] C4 R9 P7 M2Y 
+[  6] Utilization = 0.03 | pJ/Compute =   47.582 | L4[WIO] C16 M128 P73 - L3[W] Q1 - L2[IO] C2 M4Y C4X - L1[IO] C4 R2 - L0[W] R9 P7 M2Y 
+[  4] Utilization = 0.12 | pJ/Compute =   49.189 | L4[WIO] C128 M16 - L3[W] P73 - L2[IO] P7 M4Y C4X - L1[IO] M2 R2 - L0[W] R9 M8Y 
+[  5] Utilization = 0.12 | pJ/Compute =   48.685 | L4[WIO] P7 M32 C64 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R2 - L0[W] R9 M8Y 
+[  5] Utilization = 0.12 | pJ/Compute =   47.148 | L4[WIO] M32 C64 P7 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R2 - L0[W] R9 M8Y 
+[  7] Utilization = 0.12 | pJ/Compute =   49.304 | L4[WIO] M32 C64 P7 - L3[W] C2 P73 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] R9 M8Y 
+[  6] Utilization = 0.12 | pJ/Compute =   50.241 | L4[WIO] P7 M32 C64 - L3[W] P73 - L2[IO] C2 M4Y C4X - L1[IO] R2 - L0[W] R9 M8Y 
+[  6] Utilization = 0.12 | pJ/Compute =   48.703 | L4[WIO] C64 M32 P7 - L3[W] P73 - L2[IO] C2 M4Y C4X - L1[IO] R2 - L0[W] R9 M8Y 
+[  4] Utilization = 0.12 | pJ/Compute =   47.148 | L4[WIO] M32 C64 P7 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] C2 R9 M8Y 
+[  2] Utilization = 0.03 | pJ/Compute =   46.455 | L4[WIO] M32 C128 P73 - L3[W] Q1 - L2[IO] M4 M4Y C4X - L1[IO] R9 - L0[W] P7 R2 M2Y 
+[  5] Utilization = 0.12 | pJ/Compute =   47.085 | L4[WIO] M32 C64 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] C2 P7 R2 - L0[W] R9 M8Y 
+[  7] Utilization = 0.12 | pJ/Compute =   49.241 | L4[WIO] C64 M32 - L3[W] C2 P73 - L2[IO] Q1 M4Y C4X - L1[IO] P7 R2 - L0[W] R9 M8Y 
+[  7] Utilization = 0.12 | pJ/Compute =   47.842 | L4[WIO] C64 M32 - L3[W] P73 C2 - L2[IO] Q1 M4Y C4X - L1[IO] P7 R2 - L0[W] R9 M8Y 
+[  4] Utilization = 0.12 | pJ/Compute =   47.085 | L4[WIO] M32 C64 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] P7 R2 - L0[W] R9 C2 M8Y 
+[  6] Utilization = 0.12 | pJ/Compute =   47.307 | L4[WIO] M32 C64 - L3[W] P73 - L2[IO] C2 M4Y C4X - L1[IO] P7 R2 - L0[W] R9 M8Y 
+[  2] Utilization = 0.06 | pJ/Compute =   52.162 | L4[WIO] C128 M16 P73 - L3[W] M2 - L2[IO] M2 P7 M4Y C4X - L1[IO] R9 - L0[W] R2 M4Y 
+[  2] Utilization = 0.12 | pJ/Compute =   43.581 | L4[WIO] C128 M16 - L3[W] P73 - L2[IO] M2 M4Y C4X - L1[IO] R18 - L0[W] P7 M8Y 
+[  1] Utilization = 0.06 | pJ/Compute =   44.338 | L4[WIO] M32 C64 P73 - L3[W] M2 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R2 - L0[W] P7 R9 M4Y 
+[  1] Utilization = 0.06 | pJ/Compute =   44.197 | L4[WIO] M32 C64 P73 - L3[W] M2 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R2 - L0[W] R9 P7 M4Y 
+[  3] Utilization = 0.06 | pJ/Compute =   45.280 | L4[WIO] M32 C64 P73 - L3[W] M2 C2 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] R9 P7 M4Y 
+[  0] Utilization = 0.06 | pJ/Compute =   44.763 | L4[WIO] C64 M32 P73 - L3[W] M2 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] P7 R9 C2 M4Y 
+[  0] Utilization = 0.06 | pJ/Compute =   44.338 | L4[WIO] M32 C64 P73 - L3[W] M2 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] C2 P7 R9 M4Y 
+[  1] Utilization = 0.06 | pJ/Compute =   43.794 | L4[WIO] M32 C64 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C2 M2 P7 - L0[W] R18 M4Y 
+[  3] Utilization = 0.06 | pJ/Compute =   44.551 | L4[WIO] C64 M32 P73 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] M2 P7 - L0[W] R18 M4Y 
+[  0] Utilization = 0.06 | pJ/Compute =   44.006 | L4[WIO] M32 C64 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] M2 P7 - L0[W] R18 C2 M4Y 
+[  0] Utilization = 0.12 | pJ/Compute =   60.844 | L4[WIO] C128 P73 M16 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] R6 P7 M2 M8Y 
+[  0] Utilization = 0.12 | pJ/Compute =   58.161 | L4[WIO] M16 P73 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] P7 M2 R6 M8Y 
+[  0] Utilization = 0.12 | pJ/Compute =   58.002 | L4[WIO] P73 M16 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] M2 P7 R6 M8Y 
+[  0] Utilization = 0.12 | pJ/Compute =   43.638 | L4[WIO] C128 M16 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] R6 M2 P7 M8Y 
+[  0] Utilization = 0.12 | pJ/Compute =   42.524 | L4[WIO] M16 C128 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] R6 P7 M2 M8Y 
+[  1] Utilization = 0.12 | pJ/Compute =   58.649 | L4[WIO] M32 P73 C64 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R2 - L0[W] P7 R9 M8Y 
+[  1] Utilization = 0.12 | pJ/Compute =   41.565 | L4[WIO] C64 M32 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R2 - L0[W] P7 R9 M8Y 
+[  1] Utilization = 0.12 | pJ/Compute =   41.495 | L4[WIO] M32 C64 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R2 - L0[W] R9 P7 M8Y 
+[  3] Utilization = 0.12 | pJ/Compute =   58.649 | L4[WIO] M32 P73 C64 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] P7 R9 M8Y 
+[  3] Utilization = 0.12 | pJ/Compute =   42.322 | L4[WIO] C64 M32 P73 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] P7 R9 M8Y 
+[  3] Utilization = 0.12 | pJ/Compute =   42.251 | L4[WIO] M32 C64 P73 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] R9 P7 M8Y 
+[  0] Utilization = 0.12 | pJ/Compute =   41.778 | L4[WIO] C64 M32 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] P7 C2 R9 M8Y 
+[  0] Utilization = 0.12 | pJ/Compute =   41.565 | L4[WIO] M32 C64 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] C2 P7 R9 M8Y 
+[  2] Utilization = 0.12 | pJ/Compute =   41.717 | L4[WIO] M32 C64 P73 - L3[W] Q1 - L2[IO] C2 M4Y C4X - L1[IO] R2 - L0[W] R9 P7 M8Y 
+[  0] Utilization = 0.12 | pJ/Compute =   40.905 | L4[WIO] C64 M32 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] P7 - L0[W] C2 R18 M8Y 
+[  4] Utilization = 0.25 | pJ/Compute =   47.964 | L4[WIO] M16 C128 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] P7 R9 - L0[W] R2 M16Y 
+[  6] Utilization = 0.25 | pJ/Compute =   41.722 | L4[WIO] M16 C128 - L3[W] P511 - L2[IO] Q1 M4Y C4X - L1[IO] Q1 - L0[W] R18 M16Y 
+[  3] Utilization = 0.12 | pJ/Compute =   41.141 | L4[WIO] C64 M32 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] C2 R6 - L0[W] P7 R3 M8Y 
+[  5] Utilization = 0.12 | pJ/Compute =   42.322 | L4[WIO] C64 M32 P73 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] R3 P7 M8Y 
+[  5] Utilization = 0.12 | pJ/Compute =   41.898 | L4[WIO] C64 M32 P73 - L3[W] C2 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] P7 R3 M8Y 
+[  2] Utilization = 0.12 | pJ/Compute =   41.565 | L4[WIO] C64 M32 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] C2 R3 P7 M8Y 
+Interrupt caught. Mapper threads will terminate after completing any ongoing evaluations.
+[  3] STATEMENT: global termination flag activated, terminating search.
+[  5] STATEMENT: global termination flag activated, terminating search.
+[  1] STATEMENT: global termination flag activated, terminating search.
+[  4] STATEMENT: global termination flag activated, terminating search.
+[  6] STATEMENT: global termination flag activated, terminating search.
+[  0] STATEMENT: global termination flag activated, terminating search.
+[  7] STATEMENT: global termination flag activated, terminating search.
+[  2] STATEMENT: global termination flag activated, terminating search.

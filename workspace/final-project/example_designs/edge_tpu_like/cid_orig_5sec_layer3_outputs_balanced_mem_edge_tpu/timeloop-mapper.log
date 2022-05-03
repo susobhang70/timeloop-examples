@@ -1,0 +1,32 @@
+[  0] Utilization = 1.00 | pJ/Compute =   44.135 | L4[WIO] P73 C128 M4 - L3[W] Q1 - L2[IO] P7 M4Y C4X - L1[IO] R2 - L0[W] R9 M64Y 
+[  0] Utilization = 1.00 | pJ/Compute =   25.355 | L4[WIO] C128 M4 P73 - L3[W] Q1 - L2[IO] P7 M4Y C4X - L1[IO] R2 - L0[W] R9 M64Y 
+[  2] Utilization = 1.00 | pJ/Compute =   25.341 | L4[WIO] C128 M4 - L3[W] P7 - L2[IO] Q1 M4Y C4X - L1[IO] P73 R18 - L0[W] Q1 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   26.890 | L4[WIO] P7 C128 M4 - L3[W] Q1 - L2[IO] P73 M4Y C4X - L1[IO] R9 - L0[W] R2 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   25.346 | L4[WIO] M4 C128 P7 - L3[W] Q1 - L2[IO] P73 M4Y C4X - L1[IO] R9 - L0[W] R2 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   23.316 | L4[WIO] P7 M4 C128 - L3[W] Q1 - L2[IO] P73 M4Y C4X - L1[IO] R9 - L0[W] R2 M64Y 
+[  4] Utilization = 1.00 | pJ/Compute =   26.917 | L4[WIO] C128 P7 M4 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] R9 M64Y 
+[  4] Utilization = 1.00 | pJ/Compute =   25.352 | L4[WIO] C128 M4 P7 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] R9 M64Y 
+[  4] Utilization = 1.00 | pJ/Compute =   18.547 | L4[WIO] P7 C128 M4 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] P73 R6 M64Y 
+[  4] Utilization = 1.00 | pJ/Compute =   17.016 | L4[WIO] M4 C128 P7 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] R6 P73 M64Y 
+[  4] Utilization = 1.00 | pJ/Compute =   14.658 | L4[WIO] M4 P7 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R3 - L0[W] R6 P73 M64Y 
+[  2] Utilization = 1.00 | pJ/Compute =   18.088 | L4[WIO] C128 M4 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] P7 R3 M64Y 
+[  2] Utilization = 1.00 | pJ/Compute =   17.015 | L4[WIO] C128 M4 P7 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R18 - L0[W] P73 M64Y 
+[  2] Utilization = 1.00 | pJ/Compute =   14.658 | L4[WIO] P7 M4 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R18 - L0[W] P73 M64Y 
+[  0] Utilization = 1.00 | pJ/Compute =   18.098 | L4[WIO] M4 C128 P73 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] R9 P7 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   18.098 | L4[WIO] C128 M4 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] R9 - L0[W] R2 P7 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   18.074 | L4[WIO] C128 M4 - L3[W] P73 - L2[IO] Q1 M4Y C4X - L1[IO] R9 - L0[W] P7 R2 M64Y 
+[  0] Utilization = 1.00 | pJ/Compute =   17.016 | L4[WIO] M4 C128 P7 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] R9 P73 M64Y 
+[  0] Utilization = 1.00 | pJ/Compute =   14.651 | L4[WIO] M4 P7 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R2 - L0[W] P73 R9 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   17.015 | L4[WIO] C128 M4 - L3[W] P7 - L2[IO] Q1 M4Y C4X - L1[IO] R18 - L0[W] P73 M64Y 
+[  2] Utilization = 1.00 | pJ/Compute =   14.636 | L4[WIO] M4 P7 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R6 - L0[W] P73 R3 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   14.658 | L4[WIO] M4 P7 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R9 - L0[W] R2 P73 M64Y 
+[  6] Utilization = 1.00 | pJ/Compute =   14.625 | L4[WIO] M4 P7 C128 - L3[W] Q1 - L2[IO] Q1 M4Y C4X - L1[IO] R9 - L0[W] P73 R2 M64Y 
+Interrupt caught. Mapper threads will terminate after completing any ongoing evaluations.
+[  4] STATEMENT: global termination flag activated, terminating search.
+[  0] STATEMENT: global termination flag activated, terminating search.
+[  3] STATEMENT: global termination flag activated, terminating search.
+[  6] STATEMENT: global termination flag activated, terminating search.
+[  5] STATEMENT: global termination flag activated, terminating search.
+[  7] STATEMENT: global termination flag activated, terminating search.
+[  1] STATEMENT: global termination flag activated, terminating search.
+[  2] STATEMENT: global termination flag activated, terminating search.

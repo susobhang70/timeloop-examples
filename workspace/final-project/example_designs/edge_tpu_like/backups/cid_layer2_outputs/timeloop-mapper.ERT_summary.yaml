@@ -1,0 +1,90 @@
+ERT_summary:
+  version: 0.3
+  table_summary:
+  - name: system.simple_os.PE[0..15].inside_PE.mac_units[0..63].mac
+    actions:
+    - name: mac_random
+      energy: 0.5608
+    - name: mac_reused
+      energy: 0.47989
+    - name: mac_gated
+      energy: 0.03642
+    - name: idle
+      energy: 0.01797
+    primitive_estimation(s):
+    - name: system.simple_os.PE[0..15].inside_PE.mac_units[0..63].mac
+      estimator: Aladdin_table
+  - name: system.DRAM
+    actions:
+    - name: read
+      energy: 256
+    - name: write
+      energy: 256
+    - name: idle
+      energy: 0
+    primitive_estimation(s):
+    - name: system.DRAM
+      estimator: Cacti
+  - name: system.simple_os.PE[0..15].inside_PE.weight_reg
+    actions:
+    - name: write
+      average_energy: 6.7431
+      max_energy: 13.4361
+      min_energy: 0.05009
+    - name: read
+      average_energy: 8.69875
+      max_energy: 17.3474
+      min_energy: 0.05009
+    - name: idle
+      energy: 0.01319
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: system.simple_os.PE[0..15].pe_spad
+    actions:
+    - name: write
+      average_energy: 26.48767
+      max_energy: 52.8844
+      min_energy: 0.09094
+    - name: read
+      average_energy: 35.70197
+      max_energy: 71.313
+      min_energy: 0.09094
+    - name: idle
+      energy: 0.05404
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: system.simple_os.shared_glb
+    actions:
+    - name: write
+      average_energy: 14.51177
+      max_energy: 28.972
+      min_energy: 0.05155
+    - name: read
+      average_energy: 13.53082
+      max_energy: 27.0101
+      min_energy: 0.05155
+    - name: idle
+      energy: 0.01465
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table

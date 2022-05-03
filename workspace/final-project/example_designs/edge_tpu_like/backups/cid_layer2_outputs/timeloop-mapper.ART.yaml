@@ -1,0 +1,13 @@
+ART:
+  version: 0.3
+  tables:
+  - name: system.simple_os.PE[0..15].inside_PE.mac_units[0..63].mac
+    area: 332.25
+  - name: system.DRAM
+    area: 0
+  - name: system.simple_os.PE[0..15].inside_PE.weight_reg
+    area: 220381.0
+  - name: system.simple_os.PE[0..15].pe_spad
+    area: 2458849.0
+  - name: system.simple_os.shared_glb
+    area: 502539.0

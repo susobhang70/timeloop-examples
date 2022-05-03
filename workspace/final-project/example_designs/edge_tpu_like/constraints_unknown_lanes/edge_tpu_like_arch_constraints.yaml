@@ -1,0 +1,42 @@
+#
+# The following constraints are limitations of the hardware architecture and dataflow
+#
+
+architecture_constraints:
+  targets:
+    # parameter memory only stores weights
+    - target: parameter_memory
+      type: bypass
+      keep: [Weights]
+      bypass: [Inputs, Outputs]
+    # activation memory can only store inputs and outputs
+    - target: activation_memory
+      type: bypass
+      keep: [Inputs, Outputs]
+      bypass: [Weights]
+    # NoC sending C in x direction, M in y direction; parallel-for loops for C and M only
+    # set M factor to 4 and C factor to 4 to try for max utilization (bc 4x4 PE array)
+    - target: activation_memory
+      type: spatial
+      permutation: CM
+      split: 1
+      factors: R=1 S=1 P=1 Q=1 M=4 C=4
+    # pe memory only stores outputs and inputs
+    - target: pe_memory
+      type: bypass
+      bypass: [Weights]
+      keep: [Outputs, Inputs]
+    # pe memory keeps outputs stationary
+    - target: pe_memory
+      type: temporal
+      permutation: RSPQ
+    # core memory only stores weights (set M factor to be number of compute lanes to try for max utilization)
+    - target: core_memory
+      type: bypass
+      keep: [Weights]
+      bypass: [Inputs, Outputs]
+    - target: core_memory
+      type: spatial
+      permutation: M
+      factors: R=1 S=1 Q=1 C=1 P=1 
+   

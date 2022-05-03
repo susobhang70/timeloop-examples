@@ -1,0 +1,111 @@
+ERT_summary:
+  version: 0.3
+  table_summary:
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.compute_lanes[0..63].mac
+    actions:
+    - name: mac_random
+      energy: 0.5608
+    - name: mac_reused
+      energy: 0.47989
+    - name: mac_gated
+      energy: 0.03642
+    - name: idle
+      energy: 0.01797
+    primitive_estimation(s):
+    - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.compute_lanes[0..63].mac
+      estimator: Aladdin_table
+  - name: System.DRAM
+    actions:
+    - name: read
+      energy: 512
+    - name: write
+      energy: 512
+    - name: idle
+      energy: 0
+    primitive_estimation(s):
+    - name: System.DRAM
+      estimator: Cacti
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.core_memory
+    actions:
+    - name: write
+      average_energy: 6.7431
+      max_energy: 13.4361
+      min_energy: 0.05009
+    - name: read
+      average_energy: 8.69875
+      max_energy: 17.3474
+      min_energy: 0.05009
+    - name: idle
+      energy: 0.01319
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].pe_memory
+    actions:
+    - name: write
+      average_energy: 26.48767
+      max_energy: 52.8844
+      min_energy: 0.09094
+    - name: read
+      average_energy: 35.70197
+      max_energy: 71.313
+      min_energy: 0.09094
+    - name: idle
+      energy: 0.05404
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: System.edge_tpu_like_os.activation_storage.activation_memory
+    actions:
+    - name: write
+      average_energy: 1.99964
+      max_energy: 2.19376
+      min_energy: 0.06839
+    - name: read
+      average_energy: 1.99964
+      max_energy: 2.19376
+      min_energy: 0.06839
+    - name: idle
+      energy: 0.03149
+    primitive_estimation(s):
+    - name: storage
+      estimator: Aladdin_table
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
+  - name: System.edge_tpu_like_os.parameter_memory
+    actions:
+    - name: write
+      average_energy: 5.91096
+      max_energy: 11.7727
+      min_energy: 0.04923
+    - name: read
+      average_energy: 5.69036
+      max_energy: 11.3315
+      min_energy: 0.04923
+    - name: idle
+      energy: 0.01233
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table

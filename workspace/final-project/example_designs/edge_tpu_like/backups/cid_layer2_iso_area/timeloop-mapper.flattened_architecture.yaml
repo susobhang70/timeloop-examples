@@ -1,0 +1,71 @@
+architecture:
+  version: 0.3
+  local:
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.compute_lanes[0..15].mac
+    class: intmac
+    attributes:
+      datawidth: 8
+      latency: 5ns
+      meshX: 4
+      num_pipeline_stages: 2
+      technology: 45nm
+      word-bits: 8
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].core.core_memory
+    class: smartbuffer_RF
+    attributes:
+      block-size: 4
+      datawidth: 8
+      memory_depth: 256
+      memory_width: 32
+      meshX: 4
+      n_banks: 1
+      n_buffets: 1
+      n_rdwr_ports: 2
+      technology: 45nm
+      word-bits: 8
+  - name: System.edge_tpu_like_os.activation_storage.PE[0..15].pe_memory
+    class: smartbuffer_RF
+    attributes:
+      block-size: 4
+      datawidth: 8
+      memory_depth: 256
+      memory_width: 32
+      meshX: 4
+      n_banks: 1
+      n_buffets: 1
+      n_rdwr_ports: 2
+      technology: 45nm
+      word-bits: 8
+  - name: System.edge_tpu_like_os.activation_storage.activation_memory
+    class: smartbuffer_SRAM
+    attributes:
+      block-size: 4
+      datawidth: 8
+      memory_depth: 1024
+      memory_width: 32
+      n_banks: 32
+      n_buffets: 1
+      n_rdwr_ports: 2
+      technology: 45nm
+      word-bits: 8
+  - name: System.edge_tpu_like_os.parameter_memory
+    class: smartbuffer_SRAM
+    attributes:
+      block-size: 4
+      datawidth: 8
+      memory_depth: 1024
+      memory_width: 32
+      n_banks: 32
+      n_buffets: 1
+      n_rdwr_ports: 2
+      technology: 45nm
+      word-bits: 8
+  - name: System.DRAM
+    class: DRAM
+    attributes:
+      block-size: 4
+      datawidth: 8
+      technology: 45nm
+      type: LPDDR4
+      width: 64
+      word-bits: 16

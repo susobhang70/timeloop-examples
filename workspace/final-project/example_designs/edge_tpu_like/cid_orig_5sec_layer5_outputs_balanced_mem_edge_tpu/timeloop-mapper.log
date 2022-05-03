@@ -1,0 +1,16 @@
+[  4] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] C8 - L0[W] C64 
+[  1] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] C2 - L0[W] C256 
+[  3] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] C512 - L0[W] Q1 
+[  6] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] C16 - L0[W] C32 
+[  5] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] C256 - L0[W] C2 
+[  7] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] C128 - L0[W] C4 
+[  0] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] Q1 - L0[W] C512 
+[  2] Utilization = 0.00 | pJ/Compute =  300.769 | L4[WIO] Q1 - L3[W] Q1 - L2[IO] Q1 C4X - L1[IO] C4 - L0[W] C128 
+[  5] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  4] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  6] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.

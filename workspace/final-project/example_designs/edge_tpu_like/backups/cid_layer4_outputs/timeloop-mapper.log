@@ -1,0 +1,33 @@
+[  2] Utilization = 0.02 | pJ/Compute =   46.364 | L4[WIO] P7 M64 C512 - L3[W] Q1 - L2[IO] C2 M2 - L1[IO] P73 R9 - L0[W] R2 M16Y 
+[  0] Utilization = 0.02 | pJ/Compute =   45.865 | L4[WIO] P7 M64 C512 - L3[W] Q1 - L2[IO] M2 - L1[IO] C2 P73 R9 - L0[W] R2 M16Y 
+[  2] Utilization = 0.03 | pJ/Compute =  174.611 | L4[WIO] M16 P511 C512 - L3[W] Q1 - L2[IO] Q1 M2Y - L1[IO] C2 R3 - L0[W] R6 M4 M16Y 
+[  5] Utilization = 0.03 | pJ/Compute =  174.611 | L4[WIO] P511 M16 C512 - L3[W] C2 - L2[IO] Q1 M2Y - L1[IO] R3 - L0[W] R6 M4 M16Y 
+[  0] Utilization = 0.03 | pJ/Compute =   63.444 | L4[WIO] M64 P73 C128 - L3[W] Q1 - L2[IO] P7 M2 C2X - L1[IO] R18 - L0[W] C4 M16Y 
+[  7] Utilization = 0.02 | pJ/Compute =   63.177 | L4[WIO] P73 M64 C128 - L3[W] Q1 - L2[IO] C2 M2 P7 - L1[IO] C2 R18 - L0[W] C2 M16Y 
+[  3] Utilization = 0.06 | pJ/Compute =   63.324 | L4[WIO] M64 P73 C128 - L3[W] Q1 - L2[IO] M2 P7 C4X - L1[IO] R18 - L0[W] C2 M16Y 
+[  2] Utilization = 0.03 | pJ/Compute =   63.214 | L4[WIO] P73 M64 C128 - L3[W] Q1 - L2[IO] C2 M2 C2X - L1[IO] C2 P7 R18 - L0[W] Q1 M16Y 
+[  7] Utilization = 0.02 | pJ/Compute =   62.999 | L4[WIO] M64 P73 C128 - L3[W] Q1 - L2[IO] M2 C8 - L1[IO] P7 R18 - L0[W] Q1 M16Y 
+[  2] Utilization = 0.03 | pJ/Compute =   62.745 | L4[WIO] P73 M16 C512 - L3[W] Q1 - L2[IO] M2 C2 M2Y - L1[IO] M2 P7 R2 - L0[W] R9 M16Y 
+[  1] Utilization = 0.06 | pJ/Compute =   63.068 | L4[WIO] M16 P73 C512 - L3[W] Q1 - L2[IO] M2 M2Y C2X - L1[IO] M2 P7 R2 - L0[W] R9 M16Y 
+[  2] Utilization = 0.03 | pJ/Compute =   57.133 | L4[WIO] P73 M32 C256 - L3[W] Q1 - L2[IO] Q1 M2Y - L1[IO] M2 C2 R2 - L0[W] R9 C2 P7 M16Y 
+[  4] Utilization = 0.06 | pJ/Compute =   56.991 | L4[WIO] M32 P73 C256 - L3[W] Q1 - L2[IO] Q1 M2Y C2X - L1[IO] M2 R2 - L0[W] C2 R9 P7 M16Y 
+[  5] Utilization = 0.06 | pJ/Compute =   62.545 | L4[WIO] P73 M8 C1024 - L3[W] Q1 - L2[IO] P7 M4Y - L1[IO] M2 R9 - L0[W] R2 M2 M16Y 
+[  6] Utilization = 0.03 | pJ/Compute =  175.823 | L4[WIO] M8 P511 C1024 - L3[W] Q1 - L2[IO] M2 M2Y - L1[IO] M4 R2 - L0[W] R9 M16Y 
+[  6] Utilization = 0.06 | pJ/Compute =   56.303 | L4[WIO] P73 M16 C1024 - L3[W] Q1 - L2[IO] Q1 M4Y - L1[IO] R9 - L0[W] R2 P7 M2 M16Y 
+[  0] Utilization = 0.03 | pJ/Compute =   57.999 | L4[WIO] P73 M64 C128 - L3[W] C2 - L2[IO] M2 C2 C2X - L1[IO] Q1 - L0[W] P7 R18 M16Y 
+[  0] Utilization = 0.03 | pJ/Compute =   57.902 | L4[WIO] P73 M64 C128 - L3[W] C2 - L2[IO] M2 C2 C2X - L1[IO] Q1 - L0[W] R18 P7 M16Y 
+[  7] STATEMENT: 1500000 invalid mappings (1427390 fanout, 72610 capacity) found since the last valid mapping, terminating search.
+[  6] Utilization = 0.06 | pJ/Compute =   46.259 | L4[WIO] M64 P7 C512 - L3[W] Q1 - L2[IO] P73 M2Y C2X - L1[IO] R6 - L0[W] R3 M16Y 
+[  2] Utilization = 0.06 | pJ/Compute =  183.326 | L4[WIO] P511 M128 C128 - L3[W] Q1 - L2[IO] C2 C4X - L1[IO] R9 - L0[W] R2 M16Y 
+[  5] STATEMENT: 1500000 invalid mappings (1427631 fanout, 72369 capacity) found since the last valid mapping, terminating search.
+[  0] Utilization = 0.03 | pJ/Compute =   39.259 | L4[WIO] P7 M64 C256 - L3[W] Q1 - L2[IO] Q1 C2X - L1[IO] M2 P73 - L0[W] R18 C2 M16Y 
+[  3] Utilization = 0.06 | pJ/Compute =   40.091 | L4[WIO] M64 P7 C128 - L3[W] Q1 - L2[IO] C4 P73 M2Y C2X - L1[IO] Q1 - L0[W] R18 M16Y 
+[  2] STATEMENT: 1500000 invalid mappings (1428454 fanout, 71546 capacity) found since the last valid mapping, terminating search.
+[  4] Utilization = 0.06 | pJ/Compute =   39.275 | L4[WIO] P7 M64 C256 - L3[W] C2 - L2[IO] Q1 M2Y C2X - L1[IO] R3 - L0[W] R6 P73 M16Y 
+[  1] Utilization = 0.12 | pJ/Compute =   63.310 | L4[WIO] P73 M64 C128 - L3[W] Q1 - L2[IO] P7 M2Y C4X - L1[IO] C2 R6 - L0[W] R3 M16Y 
+[  4] STATEMENT: 1500000 invalid mappings (1427442 fanout, 72558 capacity) found since the last valid mapping, terminating search.
+[  3] STATEMENT: 1500000 invalid mappings (1427326 fanout, 72674 capacity) found since the last valid mapping, terminating search.
+[  0] Utilization = 0.12 | pJ/Compute =   63.711 | L4[WIO] M64 P73 C128 - L3[W] Q1 - L2[IO] C2 P7 M2Y C4X - L1[IO] R6 - L0[W] R3 M16Y 
+[  1] STATEMENT: 1500000 invalid mappings (1427926 fanout, 72074 capacity) found since the last valid mapping, terminating search.
+[  6] STATEMENT: 1500000 invalid mappings (1426675 fanout, 73325 capacity) found since the last valid mapping, terminating search.
+[  0] STATEMENT: 1500000 invalid mappings (1427213 fanout, 72787 capacity) found since the last valid mapping, terminating search.

@@ -1,0 +1,54 @@
+architecture:
+  version: 0.3
+  local:
+  - name: system.simple_os.PE[0..15].inside_PE.mac_units[0..63].mac
+    class: intmac
+    attributes:
+      datawidth: 8
+      latency: 5ns
+      meshX: 4
+      num_pipeline_stages: 2
+      technology: 45nm
+  - name: system.simple_os.PE[0..15].inside_PE.weight_reg
+    class: smartbuffer_SRAM
+    attributes:
+      block-size: 4
+      memory_depth: 8192
+      memory_width: 32
+      meshX: 4
+      n_banks: 1
+      n_buffets: 1
+      n_rdwr_ports: 2
+      technology: 45nm
+      word-bits: 8
+  - name: system.simple_os.PE[0..15].pe_spad
+    class: smartbuffer_SRAM
+    attributes:
+      block-size: 4
+      memory_depth: 96000
+      memory_width: 32
+      meshX: 4
+      n_banks: 1
+      n_buffets: 1
+      n_rdwr_ports: 2
+      technology: 45nm
+      word-bits: 8
+  - name: system.simple_os.shared_glb
+    class: smartbuffer_SRAM
+    attributes:
+      block-size: 4
+      memory_depth: 16384
+      memory_width: 32
+      n_banks: 32
+      n_buffets: 1
+      n_rdwr_ports: 2
+      technology: 45nm
+      word-bits: 8
+  - name: system.DRAM
+    class: DRAM
+    attributes:
+      block-size: 4
+      technology: 65nm
+      type: LPDDR4
+      width: 32
+      word-bits: 8

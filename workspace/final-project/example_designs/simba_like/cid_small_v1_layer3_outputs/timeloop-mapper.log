@@ -1,0 +1,23 @@
+[  0] Utilization = 0.02 | pJ/Compute =  259.930 | L5[WIO] Q1 - L4[IO] Q1 - L3[I] Q1 - L2[W] C256 - L1[O] Q1 C4Y - L0[W] Q1 
+[  1] Utilization = 0.03 | pJ/Compute =  259.441 | L5[WIO] Q1 - L4[IO] Q1 C2X - L3[I] Q1 - L2[W] C128 - L1[O] Q1 C4Y - L0[W] Q1 
+[  0] Utilization = 0.25 | pJ/Compute =  259.013 | L5[WIO] C8 - L4[IO] C2 C16X - L3[I] Q1 - L2[W] Q1 - L1[O] Q1 C4Y - L0[W] Q1 
+[  5] Utilization = 0.25 | pJ/Compute =  259.013 | L5[WIO] Q1 - L4[IO] C4 C16X - L3[I] Q1 - L2[W] C4 - L1[O] Q1 C4Y - L0[W] Q1 
+[  4] Utilization = 0.12 | pJ/Compute =  259.074 | L5[WIO] Q1 - L4[IO] Q1 C8X - L3[I] Q1 - L2[W] C32 - L1[O] Q1 C4Y - L0[W] Q1 
+[  2] Utilization = 0.06 | pJ/Compute =  259.196 | L5[WIO] Q1 - L4[IO] Q1 C4X - L3[I] Q1 - L2[W] C64 - L1[O] Q1 C4Y - L0[W] Q1 
+[  3] Utilization = 0.06 | pJ/Compute =  259.196 | L5[WIO] Q1 - L4[IO] C4 C4X - L3[I] Q1 - L2[W] C16 - L1[O] Q1 C4Y - L0[W] Q1 
+[  6] Utilization = 0.25 | pJ/Compute =  259.013 | L5[WIO] Q1 - L4[IO] Q1 C16X - L3[I] Q1 - L2[W] C16 - L1[O] Q1 C4Y - L0[W] Q1 
+[  7] Utilization = 0.06 | pJ/Compute =  259.196 | L5[WIO] C8 - L4[IO] C8 C4X - L3[I] Q1 - L2[W] Q1 - L1[O] Q1 C4Y - L0[W] Q1 
+[  3] Utilization = 0.12 | pJ/Compute =  259.074 | L5[WIO] C2 - L4[IO] C16 C8X - L3[I] Q1 - L2[W] Q1 - L1[O] Q1 C4Y - L0[W] Q1 
+[  1] Utilization = 0.12 | pJ/Compute =  259.074 | L5[WIO] C8 - L4[IO] Q1 C8X - L3[I] Q1 - L2[W] C4 - L1[O] Q1 C4Y - L0[W] Q1 
+[  4] Utilization = 0.25 | pJ/Compute =  259.013 | L5[WIO] C4 - L4[IO] C2 C16X - L3[I] Q1 - L2[W] C2 - L1[O] Q1 C4Y - L0[W] Q1 
+[  2] Utilization = 0.25 | pJ/Compute =  259.013 | L5[WIO] C8 - L4[IO] Q1 C16X - L3[I] Q1 - L2[W] C2 - L1[O] Q1 C4Y - L0[W] Q1 
+[  7] Utilization = 0.12 | pJ/Compute =  259.074 | L5[WIO] C2 - L4[IO] C4 C8X - L3[I] Q1 - L2[W] C4 - L1[O] Q1 C4Y - L0[W] Q1 
+[  1] Utilization = 0.25 | pJ/Compute =  259.013 | L5[WIO] C2 - L4[IO] C2 C16X - L3[I] Q1 - L2[W] C4 - L1[O] Q1 C4Y - L0[W] Q1 
+[  2] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  4] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  5] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  6] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 6000 suboptimal mappings found since the last upgrade, terminating search.

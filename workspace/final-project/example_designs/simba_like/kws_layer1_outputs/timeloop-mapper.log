@@ -1,0 +1,53 @@
+[  7] Utilization = 0.02 | pJ/Compute =    4.554 | L5[WIO] M4 - L4[IO] P33 Q82 - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] M4 - L0[W] Q1 
+[  3] Utilization = 0.12 | pJ/Compute =    3.671 | L5[WIO] P11 Q2 - L4[IO] Q41 M8X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  0] Utilization = 0.02 | pJ/Compute =   46.870 | L5[WIO] P11 Q2 - L4[IO] Q41 M4 - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M4 - L0[W] P3 
+[  1] Utilization = 0.03 | pJ/Compute =   46.545 | L5[WIO] P11 Q2 - L4[IO] Q41 M4 M2X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  4] Utilization = 0.02 | pJ/Compute =   46.870 | L5[WIO] P11 Q2 - L4[IO] Q41 M2 - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M8 - L0[W] P3 
+[  3] Utilization = 0.12 | pJ/Compute =    3.641 | L5[WIO] Q2 P11 - L4[IO] Q41 M8X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  7] Utilization = 0.12 | pJ/Compute =   46.272 | L5[WIO] Q2 P11 - L4[IO] Q41 M2 M8X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] P3 
+[  5] Utilization = 0.03 | pJ/Compute =   46.545 | L5[WIO] P11 Q2 - L4[IO] Q41 M2 M2X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M4 - L0[W] P3 
+[  2] Utilization = 0.06 | pJ/Compute =   46.382 | L5[WIO] P11 Q2 - L4[IO] Q41 M4 M4X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] P3 
+[  0] Utilization = 0.03 | pJ/Compute =    4.065 | L5[WIO] Q82 - L4[IO] P33 M2X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] M8 - L0[W] Q1 
+[  6] Utilization = 0.06 | pJ/Compute =   46.382 | L5[WIO] P11 Q2 - L4[IO] Q41 M2 M4X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  0] Utilization = 0.06 | pJ/Compute =   46.634 | L5[WIO] Q82 P11 - L4[IO] M2 M4X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  0] Utilization = 0.06 | pJ/Compute =   46.382 | L5[WIO] P11 Q82 - L4[IO] M2 M4X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  4] Utilization = 0.25 | pJ/Compute =    3.883 | L5[WIO] Q82 P11 - L4[IO] Q1 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] P3 
+[  1] Utilization = 0.06 | pJ/Compute =    3.821 | L5[WIO] Q82 - L4[IO] P33 M4X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] M4 - L0[W] Q1 
+[  4] Utilization = 0.25 | pJ/Compute =    3.630 | L5[WIO] P11 Q82 - L4[IO] Q1 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] P3 
+[  2] Utilization = 0.25 | pJ/Compute =    3.638 | L5[WIO] Q82 - L4[IO] P33 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q1 
+[  1] Utilization = 0.12 | pJ/Compute =   46.553 | L5[WIO] Q82 P11 - L4[IO] M2 M8X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] P3 
+[  5] Utilization = 0.12 | pJ/Compute =    3.923 | L5[WIO] Q82 P11 - L4[IO] Q1 M8X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  1] Utilization = 0.12 | pJ/Compute =   46.301 | L5[WIO] P11 Q82 - L4[IO] M2 M8X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] P3 
+[  5] Utilization = 0.12 | pJ/Compute =    3.671 | L5[WIO] P11 Q82 - L4[IO] Q1 M8X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] P3 
+[  6] Utilization = 0.06 | pJ/Compute =    4.327 | L5[WIO] P11 M4 - L4[IO] P3 Q82 M4X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q1 
+[  0] Utilization = 0.25 | pJ/Compute =    3.608 | L5[WIO] P33 - L4[IO] Q41 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] Q2 
+[  1] Utilization = 0.12 | pJ/Compute =    3.653 | L5[WIO] P33 - L4[IO] Q41 M8X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] M2 - L0[W] Q2 
+[  1] Utilization = 0.25 | pJ/Compute =    3.645 | L5[WIO] P3 Q82 - L4[IO] P11 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] Q1 
+[  6] Utilization = 0.06 | pJ/Compute =    3.846 | L5[WIO] P3 M4 - L4[IO] P11 Q41 M4X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q2 
+[  6] Utilization = 0.12 | pJ/Compute =    9.580 | L5[WIO] Q41 P3 M2 - L4[IO] Q1 M8X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q2 P11 
+[  2] Utilization = 0.25 | pJ/Compute =    3.611 | L5[WIO] P11 Q2 - L4[IO] P3 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] Q41 
+[  2] Utilization = 0.25 | pJ/Compute =    3.582 | L5[WIO] Q2 P11 - L4[IO] P3 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q41 
+[  4] Utilization = 0.25 | pJ/Compute =    3.582 | L5[WIO] Q2 P3 - L4[IO] P11 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] Q41 
+[  3] Utilization = 0.25 | pJ/Compute =    3.781 | L5[WIO] Q41 P11 - L4[IO] P3 Q2 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q1 
+[  5] Utilization = 0.12 | pJ/Compute =    3.613 | L5[WIO] Q2 P3 - L4[IO] P11 M8X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] M2 - L0[W] Q41 
+[  3] Utilization = 0.25 | pJ/Compute =    3.673 | L5[WIO] P11 Q41 - L4[IO] Q2 P3 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q1 
+[  7] Utilization = 0.12 | pJ/Compute =   25.349 | L5[WIO] P11 Q41 M2 - L4[IO] Q2 M8X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] P3 
+[  7] Utilization = 0.12 | pJ/Compute =    7.756 | L5[WIO] Q82 M2 - L4[IO] P11 M8X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] P3 
+[  6] Utilization = 0.12 | pJ/Compute =    3.610 | L5[WIO] P33 - L4[IO] Q2 M8X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] M2 - L0[W] Q41 
+[  5] Utilization = 0.25 | pJ/Compute =    3.579 | L5[WIO] P33 - L4[IO] Q2 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] Q41 
+[  7] Utilization = 0.25 | pJ/Compute =    3.578 | L5[WIO] P33 - L4[IO] Q1 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q82 
+[  1] Utilization = 0.25 | pJ/Compute =    3.584 | L5[WIO] Q41 - L4[IO] Q2 P3 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] P11 
+[  6] Utilization = 0.25 | pJ/Compute =    3.580 | L5[WIO] Q41 - L4[IO] P3 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] Q2 P11 
+[  3] Utilization = 0.25 | pJ/Compute =    3.579 | L5[WIO] Q41 - L4[IO] Q2 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] P33 
+[  1] Utilization = 0.25 | pJ/Compute =    3.579 | L5[WIO] P11 - L4[IO] Q2 P3 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] Q41 
+[  0] Utilization = 0.25 | pJ/Compute =    3.598 | L5[WIO] Q82 - L4[IO] P11 M16X - L3[I] Q1 M4Y - L2[W] R8 S20 - L1[O] Q1 - L0[W] P3 
+[  0] Utilization = 0.25 | pJ/Compute =    3.578 | L5[WIO] Q41 - L4[IO] Q1 M16X - L3[I] Q1 M4Y - L2[W] S20 R8 - L1[O] Q1 - L0[W] Q2 P33 
+Interrupt caught. Mapper threads will terminate after completing any ongoing evaluations.
+[  1] STATEMENT: global termination flag activated, terminating search.
+[  4] STATEMENT: global termination flag activated, terminating search.
+[  0] STATEMENT: global termination flag activated, terminating search.
+[  7] STATEMENT: global termination flag activated, terminating search.
+[  5] STATEMENT: global termination flag activated, terminating search.
+[  3] STATEMENT: global termination flag activated, terminating search.
+[  2] STATEMENT: global termination flag activated, terminating search.
+[  6] STATEMENT: global termination flag activated, terminating search.
