@@ -1,9 +1,12 @@
-# Report Due Date: May 03, 2022, 11:59PM EST
 
-# Final Project Baselines
+# Tiny Models for Dementia Detection on the Edge
+### Authors: Shvetank Prakash, Alex Liu, Sameer Khurana, Bruce Hecht
+#### Report Due Date: May 03, 2022, 11:59PM EST
+
+## Final Project Baselines
 For detailed instructions, please read [./workspace/final-project/README.md](./workspace/final-project/README.md). 
 
-## Using Docker
+### Using Docker
 
 Please pull the docker first to update the container, and then start with `docker-compose up`. 
 ```
@@ -13,7 +16,7 @@ docker-compose up
 ```
 After finishing the project, please commit all changes and push back to this repository.
 
-##  Related reading
+###  Related reading
  - [Timeloop/Accelergy documentation](https://timeloop.csail.mit.edu/)
  - [Timeloop/Accelergy tutorial](http://accelergy.mit.edu/tutorial.html)
  - [SparseLoop tutorial](https://accelergy.mit.edu/sparse_tutorial.html)
