@@ -25,6 +25,7 @@ problem:
     - name: Weights
       projection:
       - - - C
+      - - - M
       - - - R
       - - - S
     - name: Inputs
@@ -42,12 +43,13 @@ problem:
     - name: Outputs
       projection:
       - - - N
-      - - - C
+      - - - M
       - - - Q
       - - - P
       read-write: true
     dimensions:
     - C
+    - M
     - R
     - S
     - N
