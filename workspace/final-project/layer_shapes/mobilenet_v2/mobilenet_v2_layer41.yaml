@@ -3,6 +3,7 @@ problem:
     C: 576
     Hdilation: 1
     Hstride: 2
+    M: 576
     N: 1
     P: 7
     Q: 7

@@ -3,6 +3,7 @@ problem:
     C: 192
     Hdilation: 1
     Hstride: 2
+    M: 192
     N: 1
     P: 14
     Q: 14

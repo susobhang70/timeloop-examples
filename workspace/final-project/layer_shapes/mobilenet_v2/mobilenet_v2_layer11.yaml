@@ -3,6 +3,7 @@ problem:
     C: 144
     Hdilation: 1
     Hstride: 2
+    M: 144
     N: 1
     P: 28
     Q: 28
